@@ -1,0 +1,697 @@
+page n°1
+[<div class="post">
+<div class="header">
+<h3>Biographie</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<img alt="" class="picA floatleft" src="images/pic1.jpg"/>
+<p>
+					Richard Matthew Stallman (né à Manhattan, le 16 mars 1953), connu aussi sous les initiales rms (en minuscules1), est un programmeur et militant du logiciel libre. Il est à l’origine du projet GNU et de la licence publique générale GNU connue aussi sous l’acronyme GPL, qu’il a rédigée avec l’avocat Eben Moglen. Il a popularisé le terme anglais copyleft2. Programmeur renommé de la communauté informatique américaine et internationale, il a développé de nombreux logiciels dont les plus connus des développeurs sont l’éditeur de texte GNU Emacs, le compilateur C de GNU, le débogueur GNU mais aussi, en collaboration avec Roland McGrath, le moteur de production GNU Make.
+					</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+page n°2
+[<div class="post">
+<div class="header">
+<h3>Emacs</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>
+L'AI Lab du MIT possédait TECO dans les années 1970, un éditeur de texte fonctionnant en arrière-plan. La modification du texte nécessitait de longues chaînes de commande, c'est-à-dire une capacité d'abstraction assez importante de la part de l'utilisateur. En 1976, R. Stallman découvre l'éditeur de texte E au laboratoire d'intelligence artificielle de l'université Stanford, considéré comme le premier logiciel de traitement de texte wysiwyg, permettant de juger à l'écran en temps réel les modifications apportées. R. Stallman décide alors d'améliorer Teco, pour lui apporter les mêmes fonctionnalités. Il implémente des combinaisons de touche Control+Lettre qui exécutent des chaînes de commande Teco. Cette amélioration permet ainsi aux hackers de sauvegarder des chaînes de commande longues et complexes et d'y faire appel avec un simple raccourci clavier.
+
+Cette version augmentée de Teco conduisit les hackers du AI Lab à programmer une quantité énorme de macros. Cette profusion et diversité de macros personnelles ont commencé à rendre l'utilisation de Teco différente sur chaque terminal, avec des incompatibilités et un temps d'apprentissage de plus en plus long quand on changeait de terminal.
+
+Avec Guy Steele, Richard Stallman entreprend de réorganiser toutes les commandes en un système unifié, plus universel. Le résultat est baptisé Emacs, acronyme pour Editing Macros. Il est toujours possible d'ajouter de nouvelles commandes, mais elles n'affectent plus le logiciel original, qui reste identique pour tous les utilisateurs. Stallman écrivit une règle dans le code source : les utilisateurs étaient libres de modifier et de redistribuer le code, à la condition de reverser en retour à la communauté les extensions qu’ils écrivaient. Il passe ainsi un contrat social avec tous les hackers qui apporteront une macro à l'édifice.
+                                        </p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+page n°3
+[<div class="post">
+<div class="header">
+<h3>Projet GNU</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>
+Au mois de septembre 1983, Richard Stallman annonce le développement d’un système d’exploitation libre qu’il nomme GNU, et qui a pour but d’être un équivalent libre d’Unix. L’acronyme récursif GNU signifie GNU’s Not Unix (« GNU n'est pas UNIX »). Peu après, il crée la Free Software Foundation (FSF), un organisme à but non lucratif qui permettra l’embauche de programmeurs et la mise sur pied d’une infrastructure légale pour la communauté du logiciel libre. En janvier 1984, il quitte son emploi au MIT pour se consacrer à plein temps au projet GNU. En 1985, Stallman publie le manifeste GNU, dans lequel il fait connaître les motivations et les objectifs du projet et demande l’appui de la communauté informatique mondiale.
+
+Afin de s’assurer que tous les logiciels libres développés pour le système d'exploitation GNU restent libres, Richard Stallman popularise le concept de copyleft (inventé par Don Hopkins), une astucieuse utilisation du droit d’auteur permettant d’assurer la protection légale des quatre libertés fondamentales des utilisateurs d’ordinateurs telles que définies par la FSF.
+
+En 1989, la première version de la licence publique générale GNU est publiée. Cette licence sera utilisée pour protéger la majeure partie du système GNU qui est alors très avancé, mais encore incomplet. En effet, en 1990, la plupart des éléments du système GNU sont prêts, à l’exception du noyau du système (ou kernel). C’est à ce moment-là que la FSF commence le développement de Hurd, mais son développement se révélera long (et n’est toujours pas finalisé).
+
+La naissance du noyau Linux en 1991 (après que celui-ci est publié sous licence GPL) permet, en le combinant aux outils GNU, de former le système d’exploitation GNU/Linux. Cette appellation est importante pour Richard Stallman car elle permet entre autres que ne soit pas occulté le but du projet GNU : permettre l’utilisation d’un système entièrement libre et garantir les libertés fondamentales de manière générale.
+
+Depuis le début des années 1990, Richard est régulièrement victime de douleurs aux poignets, l’empêchant de contribuer au code comme il le faisait auparavant. Actuellement il participe surtout à propager les libertés du logiciel libre à travers le monde en tenant des conférences ou des actions contre des lois locales. Ses relations avec les protagonistes du mouvement sont devenues de plus en plus difficiles. L’incarnation de Linus Torvalds en sauveur de l’informatique moderne — idée reçue véhiculée par les médias à travers la popularité du projet Linux — agace rms. Non seulement car Linus lui-même refuse ce rôle mais aussi parce que, pour des raisons historiques logiques et sa lutte sans faille depuis le début du mouvement, il devrait également lui être donné. D’autres comme Eric Raymond l’accusent de discréditer le projet aux yeux des entreprises. Ce dernier a lancé le terme « open source » en opposition à Richard pour mettre en avant l'aspect technique plutôt que l’aspect éthique. Ayant toujours été intransigeant sur le respect de l'idéologie initiale, Richard s’oppose à ce terme car il prête à confusion et relègue les libertés aux derniers rangs des priorités.
+                                        </p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+page n°4
+[<div class="post">
+<div class="header">
+<h3>Faits</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>
+<ul>
+<li>En 1999, Richard Stallman a lancé dans The Free Universal Encyclopedia and Learning Resource, les idées à la base de Wikipédia</li>
+<li>Richard Stallman a écrit la Free Software Song, hymne des logiciels libres</li>
+<li>Le vendredi 9 juin 2006, il est allé à Paris afin de présenter une pétition de 165 000 signatures contre la loi DADVSI à l’Hôtel Matignon. Mais il y est refoulé, une décision « mûrement réfléchie » selon le chef de la sécurité de la résidence du Premier Ministre</li>
+</ul>
+</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+page n°5
+[<div class="post">
+</div>]
+page n°6
+[<div class="post">
+</div>]
+page n°7
+[<div class="post">
+</div>]
+page n°8
+[<div class="post">
+</div>]
+page n°9
+[<div class="post">
+</div>]
+page n°10
+[<div class="post">
+</div>]
+page n°11
+[<div class="post">
+</div>]
+page n°12
+[<div class="post">
+</div>]
+page n°13
+[<div class="post">
+</div>]
+page n°14
+[<div class="post">
+</div>]
+page n°15
+[<div class="post">
+</div>]
+page n°16
+[<div class="post">
+</div>]
+page n°17
+[<div class="post">
+</div>]
+page n°18
+[<div class="post">
+</div>]
+page n°19
+[<div class="post">
+</div>]
+page n°20
+[<div class="post">
+</div>]
+page n°21
+[<div class="post">
+</div>]
+page n°22
+[<div class="post">
+</div>]
+page n°23
+[<div class="post">
+</div>]
+page n°24
+[<div class="post">
+</div>]
+page n°25
+[<div class="post">
+</div>]
+page n°26
+[<div class="post">
+</div>]
+page n°27
+[<div class="post">
+</div>]
+page n°28
+[<div class="post">
+</div>]
+page n°29
+[<div class="post">
+</div>]
+page n°30
+[<div class="post">
+</div>]
+page n°31
+[<div class="post">
+</div>]
+page n°32
+[<div class="post">
+</div>]
+page n°33
+[<div class="post">
+</div>]
+page n°34
+[<div class="post">
+</div>]
+page n°35
+[<div class="post">
+</div>]
+page n°36
+[<div class="post">
+</div>]
+page n°37
+[<div class="post">
+</div>]
+page n°38
+[<div class="post">
+</div>]
+page n°39
+[<div class="post">
+</div>]
+page n°40
+[<div class="post">
+</div>]
+page n°41
+[<div class="post">
+</div>]
+page n°42
+[<div class="post">
+</div>]
+page n°43
+[<div class="post">
+</div>]
+page n°44
+[<div class="post">
+</div>]
+page n°45
+[<div class="post">
+</div>]
+page n°46
+[<div class="post">
+</div>]
+page n°47
+[<div class="post">
+</div>]
+page n°48
+[<div class="post">
+</div>]
+page n°49
+[<div class="post">
+</div>]
+page n°50
+[<div class="post">
+</div>]
+page n°51
+[<div class="post">
+</div>]
+page n°52
+[<div class="post">
+</div>]
+page n°53
+[<div class="post">
+</div>]
+page n°54
+[<div class="post">
+</div>]
+page n°55
+[<div class="post">
+</div>]
+page n°56
+[<div class="post">
+</div>]
+page n°57
+[<div class="post">
+</div>]
+page n°58
+[<div class="post">
+</div>]
+page n°59
+[<div class="post">
+</div>]
+page n°60
+[<div class="post">
+</div>]
+page n°61
+[<div class="post">
+</div>]
+page n°62
+[<div class="post">
+</div>]
+page n°63
+[<div class="post">
+</div>]
+page n°64
+[<div class="post">
+</div>]
+page n°65
+[<div class="post">
+</div>]
+page n°66
+[<div class="post">
+</div>]
+page n°67
+[<div class="post">
+</div>]
+page n°68
+[<div class="post">
+</div>]
+page n°69
+[<div class="post">
+</div>]
+page n°70
+[<div class="post">
+</div>]
+page n°71
+[<div class="post">
+</div>]
+page n°72
+[<div class="post">
+</div>]
+page n°73
+[<div class="post">
+</div>]
+page n°74
+[<div class="post">
+</div>]
+page n°75
+[<div class="post">
+</div>]
+page n°76
+[<div class="post">
+</div>]
+page n°77
+[<div class="post">
+</div>]
+page n°78
+[<div class="post">
+</div>]
+page n°79
+[<div class="post">
+</div>]
+page n°80
+[<div class="post">
+</div>]
+page n°81
+[<div class="post">
+</div>]
+page n°82
+[<div class="post">
+</div>]
+page n°83
+[<div class="post">
+</div>]
+page n°84
+[<div class="post">
+</div>]
+page n°85
+[<div class="post">
+</div>]
+page n°86
+[<div class="post">
+</div>]
+page n°87
+[<div class="post">
+</div>]
+page n°88
+[<div class="post">
+</div>]
+page n°89
+[<div class="post">
+</div>]
+page n°90
+[<div class="post">
+</div>]
+page n°91
+[<div class="post">
+</div>]
+page n°92
+[<div class="post">
+</div>]
+page n°93
+[<div class="post">
+</div>]
+page n°94
+[<div class="post">
+</div>]
+page n°95
+[<div class="post">
+</div>]
+page n°96
+[<div class="post">
+</div>]
+page n°97
+[<div class="post">
+</div>]
+page n°98
+[<div class="post">
+</div>]
+page n°99
+[<div class="post">
+</div>]
+page n°100
+[<div class="post">
+<div class="header">
+<h3>Aide</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>La clef est sur une page du site. Celui-ci comporte moins de 200 pages.</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+page n°101
+[<div class="post">
+</div>]
+page n°102
+[<div class="post">
+</div>]
+page n°103
+[<div class="post">
+</div>]
+page n°104
+[<div class="post">
+</div>]
+page n°105
+[<div class="post">
+</div>]
+page n°106
+[<div class="post">
+</div>]
+page n°107
+[<div class="post">
+</div>]
+page n°108
+[<div class="post">
+</div>]
+page n°109
+[<div class="post">
+</div>]
+page n°110
+[<div class="post">
+</div>]
+page n°111
+[<div class="post">
+</div>]
+page n°112
+[<div class="post">
+</div>]
+page n°113
+[<div class="post">
+</div>]
+page n°114
+[<div class="post">
+</div>]
+page n°115
+[<div class="post">
+</div>]
+page n°116
+[<div class="post">
+</div>]
+page n°117
+[<div class="post">
+</div>]
+page n°118
+[<div class="post">
+</div>]
+page n°119
+[<div class="post">
+</div>]
+page n°120
+[<div class="post">
+</div>]
+page n°121
+[<div class="post">
+</div>]
+page n°122
+[<div class="post">
+</div>]
+page n°123
+[<div class="post">
+</div>]
+page n°124
+[<div class="post">
+</div>]
+page n°125
+[<div class="post">
+</div>]
+page n°126
+[<div class="post">
+</div>]
+page n°127
+[<div class="post">
+</div>]
+page n°128
+[<div class="post">
+</div>]
+page n°129
+[<div class="post">
+</div>]
+page n°130
+[<div class="post">
+</div>]
+page n°131
+[<div class="post">
+</div>]
+page n°132
+[<div class="post">
+</div>]
+page n°133
+[<div class="post">
+</div>]
+page n°134
+[<div class="post">
+</div>]
+page n°135
+[<div class="post">
+</div>]
+page n°136
+[<div class="post">
+</div>]
+page n°137
+[<div class="post">
+</div>]
+page n°138
+[<div class="post">
+</div>]
+page n°139
+[<div class="post">
+</div>]
+page n°140
+[<div class="post">
+</div>]
+page n°141
+[<div class="post">
+</div>]
+page n°142
+[<div class="post">
+</div>]
+page n°143
+[<div class="post">
+</div>]
+page n°144
+[<div class="post">
+</div>]
+page n°145
+[<div class="post">
+</div>]
+page n°146
+[<div class="post">
+</div>]
+page n°147
+[<div class="post">
+</div>]
+page n°148
+[<div class="post">
+</div>]
+page n°149
+[<div class="post">
+</div>]
+page n°150
+[<div class="post">
+</div>]
+page n°151
+[<div class="post">
+</div>]
+page n°152
+[<div class="post">
+</div>]
+page n°153
+[<div class="post">
+</div>]
+page n°154
+[<div class="post">
+</div>]
+page n°155
+[<div class="post">
+</div>]
+page n°156
+[<div class="post">
+</div>]
+page n°157
+[<div class="post">
+</div>]
+page n°158
+[<div class="post">
+</div>]
+page n°159
+[<div class="post">
+</div>]
+page n°160
+[<div class="post">
+</div>]
+page n°161
+[<div class="post">
+</div>]
+page n°162
+[<div class="post">
+</div>]
+page n°163
+[<div class="post">
+</div>]
+page n°164
+[<div class="post">
+</div>]
+page n°165
+[<div class="post">
+</div>]
+page n°166
+[<div class="post">
+</div>]
+page n°167
+[<div class="post">
+</div>]
+page n°168
+[<div class="post">
+</div>]
+page n°169
+[<div class="post">
+</div>]
+page n°170
+[<div class="post">
+</div>]
+page n°171
+[<div class="post">
+</div>]
+page n°172
+[<div class="post">
+</div>]
+page n°173
+[<div class="post">
+</div>]
+page n°174
+[<div class="post">
+</div>]
+page n°175
+[<div class="post">
+</div>]
+page n°176
+[<div class="post">
+</div>]
+page n°177
+[<div class="post">
+</div>]
+page n°178
+[<div class="post">
+</div>]
+page n°179
+[<div class="post">
+</div>]
+page n°180
+[<div class="post">
+</div>]
+page n°181
+[<div class="post">
+</div>]
+page n°182
+[<div class="post">
+</div>]
+page n°183
+[<div class="post">
+</div>]
+page n°184
+[<div class="post">
+<div class="header">
+<h3>Bravo</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>Vous avez trouvez la bonne page. Votre clef est : A2dfT3BBn2e</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+page n°185
+[<div class="post">
+</div>]
+page n°186
+[<div class="post">
+</div>]
+page n°187
+[<div class="post">
+</div>]
+page n°188
+[<div class="post">
+</div>]
+page n°189
+[<div class="post">
+</div>]
+page n°190
+[<div class="post">
+</div>]
+page n°191
+[<div class="post">
+</div>]
+page n°192
+[<div class="post">
+</div>]
+page n°193
+[<div class="post">
+</div>]
+page n°194
+[<div class="post">
+</div>]
+page n°195
+[<div class="post">
+</div>]
+page n°196
+[<div class="post">
+</div>]
+page n°197
+[<div class="post">
+</div>]
+page n°198
+[<div class="post">
+</div>]
+page n°199
+[<div class="post">
+</div>]
+page n°200
+[<div class="post">
+</div>]

@@ -1,0 +1,497 @@
+[<div class="post">
+<div class="header">
+<h3>Biographie</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<img alt="" class="picA floatleft" src="images/pic1.jpg"/>
+<p>
+					Richard Matthew Stallman (né à Manhattan, le 16 mars 1953), connu aussi sous les initiales rms (en minuscules1), est un programmeur et militant du logiciel libre. Il est à l’origine du projet GNU et de la licence publique générale GNU connue aussi sous l’acronyme GPL, qu’il a rédigée avec l’avocat Eben Moglen. Il a popularisé le terme anglais copyleft2. Programmeur renommé de la communauté informatique américaine et internationale, il a développé de nombreux logiciels dont les plus connus des développeurs sont l’éditeur de texte GNU Emacs, le compilateur C de GNU, le débogueur GNU mais aussi, en collaboration avec Roland McGrath, le moteur de production GNU Make.
+					</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+[<div class="post">
+<div class="header">
+<h3>Emacs</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>
+L'AI Lab du MIT possédait TECO dans les années 1970, un éditeur de texte fonctionnant en arrière-plan. La modification du texte nécessitait de longues chaînes de commande, c'est-à-dire une capacité d'abstraction assez importante de la part de l'utilisateur. En 1976, R. Stallman découvre l'éditeur de texte E au laboratoire d'intelligence artificielle de l'université Stanford, considéré comme le premier logiciel de traitement de texte wysiwyg, permettant de juger à l'écran en temps réel les modifications apportées. R. Stallman décide alors d'améliorer Teco, pour lui apporter les mêmes fonctionnalités. Il implémente des combinaisons de touche Control+Lettre qui exécutent des chaînes de commande Teco. Cette amélioration permet ainsi aux hackers de sauvegarder des chaînes de commande longues et complexes et d'y faire appel avec un simple raccourci clavier.
+
+Cette version augmentée de Teco conduisit les hackers du AI Lab à programmer une quantité énorme de macros. Cette profusion et diversité de macros personnelles ont commencé à rendre l'utilisation de Teco différente sur chaque terminal, avec des incompatibilités et un temps d'apprentissage de plus en plus long quand on changeait de terminal.
+
+Avec Guy Steele, Richard Stallman entreprend de réorganiser toutes les commandes en un système unifié, plus universel. Le résultat est baptisé Emacs, acronyme pour Editing Macros. Il est toujours possible d'ajouter de nouvelles commandes, mais elles n'affectent plus le logiciel original, qui reste identique pour tous les utilisateurs. Stallman écrivit une règle dans le code source : les utilisateurs étaient libres de modifier et de redistribuer le code, à la condition de reverser en retour à la communauté les extensions qu’ils écrivaient. Il passe ainsi un contrat social avec tous les hackers qui apporteront une macro à l'édifice.
+                                        </p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+[<div class="post">
+<div class="header">
+<h3>Projet GNU</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>
+Au mois de septembre 1983, Richard Stallman annonce le développement d’un système d’exploitation libre qu’il nomme GNU, et qui a pour but d’être un équivalent libre d’Unix. L’acronyme récursif GNU signifie GNU’s Not Unix (« GNU n'est pas UNIX »). Peu après, il crée la Free Software Foundation (FSF), un organisme à but non lucratif qui permettra l’embauche de programmeurs et la mise sur pied d’une infrastructure légale pour la communauté du logiciel libre. En janvier 1984, il quitte son emploi au MIT pour se consacrer à plein temps au projet GNU. En 1985, Stallman publie le manifeste GNU, dans lequel il fait connaître les motivations et les objectifs du projet et demande l’appui de la communauté informatique mondiale.
+
+Afin de s’assurer que tous les logiciels libres développés pour le système d'exploitation GNU restent libres, Richard Stallman popularise le concept de copyleft (inventé par Don Hopkins), une astucieuse utilisation du droit d’auteur permettant d’assurer la protection légale des quatre libertés fondamentales des utilisateurs d’ordinateurs telles que définies par la FSF.
+
+En 1989, la première version de la licence publique générale GNU est publiée. Cette licence sera utilisée pour protéger la majeure partie du système GNU qui est alors très avancé, mais encore incomplet. En effet, en 1990, la plupart des éléments du système GNU sont prêts, à l’exception du noyau du système (ou kernel). C’est à ce moment-là que la FSF commence le développement de Hurd, mais son développement se révélera long (et n’est toujours pas finalisé).
+
+La naissance du noyau Linux en 1991 (après que celui-ci est publié sous licence GPL) permet, en le combinant aux outils GNU, de former le système d’exploitation GNU/Linux. Cette appellation est importante pour Richard Stallman car elle permet entre autres que ne soit pas occulté le but du projet GNU : permettre l’utilisation d’un système entièrement libre et garantir les libertés fondamentales de manière générale.
+
+Depuis le début des années 1990, Richard est régulièrement victime de douleurs aux poignets, l’empêchant de contribuer au code comme il le faisait auparavant. Actuellement il participe surtout à propager les libertés du logiciel libre à travers le monde en tenant des conférences ou des actions contre des lois locales. Ses relations avec les protagonistes du mouvement sont devenues de plus en plus difficiles. L’incarnation de Linus Torvalds en sauveur de l’informatique moderne — idée reçue véhiculée par les médias à travers la popularité du projet Linux — agace rms. Non seulement car Linus lui-même refuse ce rôle mais aussi parce que, pour des raisons historiques logiques et sa lutte sans faille depuis le début du mouvement, il devrait également lui être donné. D’autres comme Eric Raymond l’accusent de discréditer le projet aux yeux des entreprises. Ce dernier a lancé le terme « open source » en opposition à Richard pour mettre en avant l'aspect technique plutôt que l’aspect éthique. Ayant toujours été intransigeant sur le respect de l'idéologie initiale, Richard s’oppose à ce terme car il prête à confusion et relègue les libertés aux derniers rangs des priorités.
+                                        </p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+[<div class="post">
+<div class="header">
+<h3>Faits</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>
+<ul>
+<li>En 1999, Richard Stallman a lancé dans The Free Universal Encyclopedia and Learning Resource, les idées à la base de Wikipédia</li>
+<li>Richard Stallman a écrit la Free Software Song, hymne des logiciels libres</li>
+<li>Le vendredi 9 juin 2006, il est allé à Paris afin de présenter une pétition de 165 000 signatures contre la loi DADVSI à l’Hôtel Matignon. Mais il y est refoulé, une décision « mûrement réfléchie » selon le chef de la sécurité de la résidence du Premier Ministre</li>
+</ul>
+</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+<div class="header">
+<h3>Aide</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>La clef est sur une page du site. Celui-ci comporte moins de 200 pages.</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+<div class="header">
+<h3>Bravo</h3>
+<div class="date">20 avril 2013</div>
+</div>
+<div class="content">
+<p>Vous avez trouvez la bonne page. Votre clef est : A2dfT3BBn2e</p>
+</div>
+<div class="footer">
+<ul>
+<li class="readmore"><a href="#">Lire la suite</a></li>
+</ul>
+</div>
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]
+[<div class="post">
+</div>]

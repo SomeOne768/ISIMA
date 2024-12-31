@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Retour de produit</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            color: #008000;
+            padding: 20px;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #008000;
+            width: fit-content;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #008000;
+        }
+
+        label {
+            margin: 10px 0 5px;
+        }
+
+        input,
+        button {
+            padding: 8px 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #008000;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        input {
+            background-color: #e7ffe6;
+        }
+
+        button {
+            background-color: #008000;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        button:hover {
+            background-color: #005700;
+        }
+
+        p {
+            color: #008000;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Formulaire de retour de produit</h2>
+    <form action="/order/1/return" method="post">
+        <label for="productId">ID du produit :</label>
+        <input type="number" id="productId" name="productId" required>
+
+        <label for="quantity">Quantité :</label>
+        <input type="number" id="quantity" name="quantity" required>
+
+        <button type="submit">Retourner le produit</button>
+    </form>
+    <div th:if="${message}">
+        <p th:text="${message}"></p>
+    </div>
+</body>
+
+</html>

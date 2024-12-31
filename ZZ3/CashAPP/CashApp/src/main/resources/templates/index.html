@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Logiciel de Caisse</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f4f3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        .actions,
+        .payment-actions {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-custom {
+            background-color: #28a745;
+            color: #ffffff;
+            border: 0;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            flex: 1;
+        }
+
+        .btn-custom:hover {
+            background-color: #218838;
+        }
+
+        .card,
+        .product-details,
+        .selected-products {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .list-group-item {
+            border: 0;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: transform 0.2s ease;
+        }
+
+        .list-group-item:hover {
+            transform: scale(1.02);
+            background-color: #e9f5ee;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            transition: border-color 0.2s ease-in-out;
+        }
+
+        .form-control:focus {
+            border-color: #28a745;
+            box-shadow: none;
+        }
+
+        h4 {
+            margin-bottom: 20px;
+            color: #28a745;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="actions">
+                    <button class="btn btn-custom">Chercher un produit</button>
+                    <a href="/product/return" class="btn btn-custom">Retourner un article</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-list">
+                    <h4>Liste des produits</h4>
+
+                    <form id="searchForm" action="/search" method="POST">
+                        <input type="text" id="searchName" name="searchName" class="form-control"
+                            placeholder="Rechercher un produit..." value="">
+                        <button style="display: none;" id="submitBtn" type="submit">Rechercher</button>
+                    </form>
+
+
+                    <div id="productsContainer" class="list-group">
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product-details">
+                    <h4>Détail du produit</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="selected-products">
+                    <h4>Articles sélectionnés</h4>
+                    <div th:if="${cart.getItems() != null}" class="col justify-content-center">
+                        <div th:each="item : ${cart.getItems()}" class="col-md-5">
+                            <img th:src="|data:image/jpeg;base64,${item.product.image}|" class="card-img-top" />
+                            <p th:text="${item.product.name} + ' : ' + ${item.quantity}"></p>
+                        </div>
+                    </div>
+                    <div th:if="${cart.getItems() == null}">
+                        <p class="text-center mb-4">Panier vide</p>
+                    </div>
+                </div>
+                <div class="payment-actions">
+                    <a href="/cart" class="btn btn-custom btn-block">Payer</a>
+                    <button class="btn btn-custom btn-block">Imprimer le ticket</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div th:replace="fragments/logout-button.html"></div>
+
+    <script>
+        var searchInput = document.getElementById("searchName");
+        var submitButton = document.getElementById("submitBtn");
+
+        searchInput.addEventListener("input", function (event) {
+            submitButton.click();
+        });
+
+        let myProducts;
+        document.getElementById("searchForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(this);
+
+            fetch(this.action, {
+                method: "POST",
+                body: formData
+            })
+                .then(response => {
+                    if (response.ok) {
+                        console.log("OK");
+                    } else {
+                        console.error("Erreur lors de la recherche de produits :", response.status);
+                    }
+                    console.log(response);
+
+                    return response.json();
+
+                }).then(data => {
+                    myProducts = data;
+                    displayProducts(data);
+                })
+                .catch(error => {
+                    displayProductsError();
+                    console.log("Erreur lors de la recherche de produits :", error);
+                });
+        });
+
+
+        function displayProductsError() {
+            var container = document.getElementById("productsContainer");
+            container.innerHTML = "<p> Pas d'article</p>";
+        }
+
+
+        function displayProducts(products) {
+            var container = document.getElementById("productsContainer");
+            container.innerHTML = "";
+
+            products.forEach(product => {
+                var card = document.createElement("div");
+                card.classList.add("card", "d-flex", "flex-column", "h-100");
+
+                var img = document.createElement("img");
+                img.src = "data:image/jpeg;base64," + product.image;
+                img.className = "flex-fill";
+
+                var productName = document.createElement("p");
+                productName.textContent = product.name;
+
+                var detailButton = document.createElement("button");
+                detailButton.textContent = "Détail";
+                detailButton.classList.add("btn", "btn-primary", "btn-block", "mt-auto");
+
+                detailButton.dataset.productId = product.productId;
+                detailButton.addEventListener("click", function () {
+                    var productId = this.dataset.productId;
+                    var selectedProduct = myProducts.find(product => product.productId == productId);
+                    displayProductDetails(selectedProduct);
+                });
+
+                card.appendChild(img);
+                card.appendChild(productName);
+                card.appendChild(detailButton);
+
+                container.appendChild(card);
+            });
+        }
+
+
+        function displayProductDetails(product) {
+            var productDetailsDiv = document.querySelector(".product-details");
+            productDetailsDiv.innerHTML = ""; 
+
+            var productName = document.createElement("h4");
+            productName.textContent = product.name;
+
+            var brand = document.createElement("p");
+            brand.textContent = "Marque: " + product.brand;
+
+            var price = document.createElement("p");
+            price.textContent = "Prix: " + product.price + "€";
+
+            var img = document.createElement("img");
+                img.src = "data:image/jpeg;base64," + product.image;
+                img.className = "flex-fill";
+                
+
+            productDetailsDiv.classList.add("card", "p-3", "mt-3");
+
+            productName.classList.add("card-title");
+            brand.classList.add("card-text");
+            price.classList.add("card-text");
+
+            img.classList.add("img-fluid", "rounded");
+
+            var card = document.createElement("div");
+            card.classList.add("card");
+
+            var cardBody = document.createElement("div");
+            cardBody.classList.add("card-body");
+
+            
+            cardBody.appendChild(productName);
+            cardBody.appendChild(brand);
+            cardBody.appendChild(price);
+
+            var addToCartButton = document.createElement("button");
+            addToCartButton.textContent = "Ajouter au panier";
+            addToCartButton.classList.add("btn", "btn-success", "mb-2");
+            addToCartButton.addEventListener("click", function () {
+                var quantity = quantityInput.value;
+                console.log("Produit ajouté au panier:", product.name, "Quantité:", quantity);
+            });
+
+            var quantityLabel = document.createElement("label");
+            quantityLabel.textContent = "Quantité " + "(" + product.quantity + " en stock) :";
+            quantityLabel.classList.add("mr-2"); 
+
+            var quantityInput = document.createElement("input");
+            quantityInput.type = "number";
+            quantityInput.name = "quantity";
+            quantityInput.id = "quantity";
+            quantityInput.min = 0;
+            quantityInput.max = product.quantity;
+            quantityInput.value = 1; 
+            quantityInput.classList.add("form-control", "mb-2", "d-inline-block"); // Affichage en ligne
+
+            var idInput = document.createElement("input");
+            idInput.type = "hidden"; 
+            idInput.name = "productId";
+            idInput.id = "productId";
+            idInput.value = product.productId;
+            idInput.classList.add("form-control", "mb-2", "d-inline-block"); // Affichage en ligne
+
+            var addToCartForm = document.createElement("form");
+            addToCartForm.action = "/addToCart/" + product.productId;
+            addToCartForm.method = "POST";
+
+            addToCartForm.appendChild(quantityLabel);
+            addToCartForm.appendChild(quantityInput);
+            addToCartForm.appendChild(idInput);
+            addToCartForm.appendChild(addToCartButton);
+
+            cardBody.appendChild(addToCartForm);
+
+            card.appendChild(img);
+            card.appendChild(cardBody);
+
+            productDetailsDiv.appendChild(card);
+        }
+
+    </script>
+
+</body>
+
+</html>

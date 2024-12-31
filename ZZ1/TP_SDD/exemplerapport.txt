@@ -1,0 +1,13 @@
+//Test de inserer dans une liste d'action
+202215108TPs de SDD//Insertion en tete
+202215519Ins fin//Insertion en fin
+202215212Ins dedans //Insertion à l'interieur
+
+//test recherche semaine
+//ajoutons des éléments
+201925314TPs de SI //nexiste pas et au debut
+202425314TPs de SI //nexiste pas en fin
+202225314TPs de SI //nexiste pas et à l'interieur
+201925514TPs de SI //existe et au debut
+202315211TPs de SI //existe et à l'intérieur
+202425310TPs de SDD//existe et à la fin

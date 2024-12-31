@@ -1,0 +1,21 @@
+6/ Un SMS est un message avec une zone de texte de longeur maximale de 160 caractères (mieux que twitter v1, non ?)
+Test : SMS1
+
+7/ Chaque message est connu grâce à un indentifiant unique, pour le coder il faut deux attributs : un id (fixé à la construction et non modifiable) et une clé qui s'incrémente à chaque fois qu'un message est créé (attribut de classe :-))
+Test : Message1
+
+8/ Un telephone contient la liste des messages reçus et envoyes. On considere dans un premier temps uniquement le nombre de messages dans cette liste.
+Test : Telephone4
+
+9/ On peut envoyer un SMS d'un téléphone à un autre, voire meme se tromper :-)
+Tests : SMS2, SMS3
+
+10/ Un MMS est un message et SMS enrichi qui peut embarquer des Media (son, video, image).
+Media est une classe abstraite
+Tests : Media0, Media1, MMS1, MMS2
+
+11/ Un MMS peut etre envoyé sur le réseau
+Test : MMS3
+
+C'est tout pour aujourd'hui ! 
+Ne jetez pas vos téléphones en sortant de la salle :-)
